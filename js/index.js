@@ -160,5 +160,8 @@
         $(".floorbottom1").removeClass("active").eq(index).addClass("active");
         i = index;
     })
+    $(".floorhead li").mouseleave(function () {
+        t = setInterval(active, 3000);
+    })
 
 }
