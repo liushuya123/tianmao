@@ -1100,9 +1100,7 @@
     top: 0;
     left: 0;
     z-index: 3999;
-    transition: all .3s ease-out;
     opacity: .99;
-    transition: all .5s linear;
     display:none;
 }
 .topcontainer{
@@ -1717,21 +1715,6 @@
     width: 1230px;
     margin: 0 auto;
     position: relative;
-}
-.left-detail1 .active1{
-    background-color: #64C333;
-}
-.left-detail2 .active1{
-    background-color: #000;
-}
-.left-detail3 .active1{
-    background-color: #EA5F8D;
-}
-.left-detail4 .active1{
-    background-color: #0AA6E8;
-}
-.left-detail7 .active1{
-    background-color: #19C8A9;
 }
 .banner_xiaokuang{
     width: 1230px;

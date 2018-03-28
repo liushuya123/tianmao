@@ -3,14 +3,14 @@
     $(window).scroll(function () {
         let st = $(window).scrollTop();//获取滚动高度
         if (st > 700) {
-            $(".topbar").show();
+            $(".topbar").slideDown();
         } else {
-            $(".topbar").hide();
+            $(".topbar").slideUp();
         }
         if (st > 500) {
-            $(".leftbar").show();
+            $(".leftbar").slideDown();
         } else {
-            $(".leftbar").hide();
+            $(".leftbar").slideUp();
         }
     });
 }
@@ -100,13 +100,13 @@
         $(".left-click").eq(index).addClass("active1");
         $("html,body").animate({scrollTop: ot}, 200);
     })
+    let arr2=["#64C333","#FF0036","#EA5F8D","#0AA6E8","#64C333","#F15453","#19C8A9","#FF0036"]
     $(window).scroll(function () {
         let st = $(window).scrollTop();
 
         $(".floorportlou").each(function (e) {
             if(st>$(".floorportlou").eq(e).offset().top-200){
-                $(".left-click").removeClass("active1");
-                $(".left-click").eq(e).addClass("active1");
+                $(".left-click").css("background","rgba(0,0,0,0.8)").eq(e).css("background",arr2[e]);
             }
         })
 
