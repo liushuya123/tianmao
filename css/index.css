@@ -254,7 +254,7 @@
     height: 36px;
     background: #FF0036;
     position: absolute;
-    top: -36px;
+    top: -37px;
     /*left: 45px;*/
 }
 .fenlei i{
@@ -955,7 +955,7 @@
     margin-right: 4px;
 }
 .floorcontent1{
-    margin-top: 0;
+    margin-top: 10px;
 }
 .end{
     width: 80px;
@@ -1312,7 +1312,7 @@
     font-size: 30px;
     color: #494949;
     position: absolute;
-    right: -10px;
+    right: -9px;
     top: 0px;
 }
 .rightlogo-xiaoguo1{
@@ -1731,18 +1731,8 @@
     position: absolute;
     bottom: 0%;
 }
-@keyframes flyIn {
-    0%{
-        right: 75px;
-        top: -1px;
-    }
-    100%{
-        right: 35px;
-        top: -1px;
-    }
-}
 .flyIn{
-    animation: flyIn .3s ease-in forwards;
+    opacity: 0;
 }
 @keyframes flyOut {
     0%{
@@ -1757,6 +1747,84 @@
 .flyOut{
     animation: flyOut .3s ease-in forwards;
 }
-
-
+.floorthing1-a{
+    position: relative;
+}
+.floorthingtitle{
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    width: 220px;
+    font-size: 18px;
+    z-index: 10;
+    line-height: 24px;
+    height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #000;
+}
+.sub-title{
+    position: absolute;
+    top: 49px;
+    left: -38px;
+    width: 220px;
+    font-size: 14px;
+    z-index: 10;
+    line-height: 18px;
+    height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #7A45E5;
+}
+.floorthingimg  .sub-floor-img{
+    width: 170px;
+    height: 170px;
+    margin: 90px 33px 42px 32px;
+}
+.floor-nav-longimg{
+    width: 1230px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.floor-nav-longimg a img{
+    display: block;
+    width: 1620px;
+    height: 90px;
+    margin-left: -165px;
+}
+.shuaxin{
+    font-family: 'iconfont';
+    font-size: 28px;
+    font-style: normal;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 98px;
+    display: block;
+    transition: all .3s;
+}
+.huanyipi{
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+.hezi01:hover{
+    background: #FF0C40;
+    color: #fff;
+    cursor: pointer;
+}
+.hezi01:hover .shuaxin{
+    color: #fff;
+    transform: rotate(360deg);
+}
+.floorcontent-tiamaotou{
+    margin-bottom: 20px;
+}
 
