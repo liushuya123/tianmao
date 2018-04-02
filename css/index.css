@@ -1731,8 +1731,18 @@
     position: absolute;
     bottom: 0%;
 }
+@keyframes flyIn {
+    0%{
+        right: 75px;
+        top: -1px;
+    }
+    100%{
+        right: 35px;
+        top: -1px;
+    }
+}
 .flyIn{
-    opacity: 0;
+    animation: flyIn .3s ease-in forwards;
 }
 @keyframes flyOut {
     0%{
